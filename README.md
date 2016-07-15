@@ -11,7 +11,7 @@ your Mapbox Access token.
 
 
 
-## How to find address? ##
+## How to see affected area? ##
 > It's simple, just choose the options from Navbar. You could see quakes happened  
 on past hour, day, week and month, with options within each of them. Clicking on  
 each marker gives details about the specific earthquake.  
