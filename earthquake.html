@@ -84,7 +84,7 @@
 
   <ul id="dropdown1" class="dropdown-content">
     <li><a href="earthquake.html?type=all_hour">Past Hour</a></li>
-    <li><a href="earthquake.html?type=all_day">Past Day</a></li>
+    <li><a href="earthquake.html?type=2.5_day">Past Day</a></li>
     <li><a href="earthquake.html?type=4.5_week">Past Week</a></li>
     <li><a href="earthquake.html?type=4.5_month">Past Month</a></li>
   </ul>
@@ -123,7 +123,6 @@
 
 
   var coordinates = document.getElementById('coordinates');
-  map.scrollWheelZoom.disable();
 
   var url = window.location.href; // or window.location.href for current url
   var captured = /type=([^&]+)/.exec(url)[1]; // Value is in [1] ('384' in our case)
