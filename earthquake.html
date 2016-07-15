@@ -83,18 +83,37 @@
   <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
 
   <ul id="dropdown1" class="dropdown-content">
-    <li><a href="earthquake.html?type=all_hour">Past Hour</a></li>
-    <li><a href="earthquake.html?type=2.5_day">Past Day</a></li>
-    <li><a href="earthquake.html?type=4.5_week">Past Week</a></li>
-    <li><a href="earthquake.html?type=4.5_month">Past Month</a></li>
+    <li><a href="earthquake.html?type=all_hour">All Earthquakes</a></li>
+    <li><a href="earthquake.html?type=2.5_hour">2.5+ Earthquakes</a></li>
+    <li><a href="earthquake.html?type=4.5_hour">4.5+ Earthquakes</a></li>
+    <li><a href="earthquake.html?type=significant_hour">Significant Earthquakes</a></li>
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="earthquake.html?type=all_day">All Earthquakes</a></li>
+    <li><a href="earthquake.html?type=2.5_day">2.5+ Earthquakes</a></li>
+    <li><a href="earthquake.html?type=4.5_day">4.5+ Earthquakes</a></li>
+    <li><a href="earthquake.html?type=significant_day">Significant Earthquakes</a></li>
+  </ul>
+  <ul id="dropdown3" class="dropdown-content">
+    <li><a href="earthquake.html?type=all_week">All Earthquakes</a></li>
+    <li><a href="earthquake.html?type=2.5_week">2.5+ Earthquakes</a></li>
+    <li><a href="earthquake.html?type=4.5_week">4.5+ Earthquakes</a></li>
+    <li><a href="earthquake.html?type=significant_week">Significant Earthquakes</a></li>
+  </ul>
+  <ul id="dropdown4" class="dropdown-content">
+    <li><a href="earthquake.html?type=4.5_month">4.5+ Earthquakes</a></li>
+    <li><a href="earthquake.html?type=significant_month">Significant Earthquakes</a></li>
   </ul>
 
   <nav>
     <div class="nav-wrapper teal">
       <div style="padding-left:20px;"> 
-      <a href="index.html" class="brand-logo">Home</a>
+      <a href="index.html" class="brand-logo">Earthquakes</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a class="dropdown-button" data-activates="dropdown1">Earthquakes<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" data-activates="dropdown1">Past Hour<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" data-activates="dropdown2">Past Day<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" data-activates="dropdown3">Past Week<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" data-activates="dropdown4">Past Month<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
     </div>
   </nav>
